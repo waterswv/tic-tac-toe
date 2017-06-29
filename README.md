@@ -83,7 +83,11 @@ Remind yourself how tic-tac-toe works by playing a few games with a classmate.
 <details><summary>Reset Everything</summary><p>Your reset button should change the board back to its initial configuration. Make sure you empty all the boxes and reset all other variables to their starting values. Don't forget the starting turn variable!</p></details>
 
 
-<details><summary>Style `X`s and `O`s</summary><p>Use jQuery to add a CSS class to the box when a player makes a move. (Not sure how? Google "jQuery add class", choose the jQuery API Documentation result, and find some examples!)</p></details>
+<details><summary>
+
+Style `X`s and `O`s
+
+</summary><p>Use jQuery to add a CSS class to the box when a player makes a move. (Not sure how? Google "jQuery add class", choose the jQuery API Documentation result, and find some examples!)</p></details>
 
 
 <details><summary>Detect a Draw</summary><p>The game can end when someone wins or when the board fills up. How can you check whether the board is full or still has space for the players to move?</p></details>
