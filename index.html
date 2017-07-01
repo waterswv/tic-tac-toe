@@ -9,12 +9,13 @@
     <!-- Bootstrap CSS from CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <!-- link to custom stylesheet (always require after Bootstrap) -->
-    <link rel="stylesheet" href="/css/style.css" media="screen" title="no title" charset="utf-8">
-    <!-- jQuery from CDN -->
+    <!-- link to custom stylesheet (always require after Bootstrap) ... Modified CSS link file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <!-- jQuery from GOOGLE CDN ... leveraged from Google Search for jQuery import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
-    <!-- link to custom javascript file (always require after external JS libraries) -->
+    <!-- link to custom javascript file (always require after external JS libraries) ... added JS file path-->
+    <script type="text/javascript" src="js/app.js"></script>
 
     <title>Tic Tac Toe</title>
   </head>
@@ -39,7 +40,18 @@
             <div class="col-md-4 box">a</div>
             <div class="col-md-4 box">a</div>
           </div>
+          <!--  Added rows 2 & 3 below-->
+          <div class="row">
+            <div class="col-md-4 box">a</div>
+            <div class="col-md-4 box">a</div>
+            <div class="col-md-4 box">a</div>
+          </div>
 
+          <div class="row">
+            <div class="col-md-4 box">a</div>
+            <div class="col-md-4 box">a</div>
+            <div class="col-md-4 box">a</div>
+          </div>
 
 
         </div>
